@@ -1,7 +1,7 @@
 const line = [];
+let i = 0; 
 
 function takeANumber(){
-  let i = 0; 
   line.push(i++)
   return ( "You are ticket number:" + i  ) 
 }
